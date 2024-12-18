@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.elementCenter {
+  @apply flex justify-center items-center;
+}
+.elementBetween {
+  @apply flex justify-between items-center;
+}
+
+
+@layer base {
+  .container {
+    @apply  mx-auto transition-all duration-300 ease-in-out;
+  }
+}
+
+
+.transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+.centerAbsoluteElement {
+  @apply top-16 left-1/2 -translate-x-1/2 ;
+}
+
+
+
+
+
+
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 2px solid #ccc;
+  margin: 0 10px;
+}
+
