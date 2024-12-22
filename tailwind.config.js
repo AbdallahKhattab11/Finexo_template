@@ -13,6 +13,7 @@ export default {
       colors: {
         primary:"#00bbf0",
         secondary: "#007fa4",
+        'black-50': 'rgba(0, 0, 0, 0.5)',
       }
     },
   },

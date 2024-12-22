@@ -1,11 +1,13 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 
 import { NavLink, Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa6";
 
-import Login from "../Login/Login";
 
-const Navbar = () => {
+
+const Navbar = ({setIsLogin}) => {
+  // handle menu
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -23,6 +25,11 @@ const Navbar = () => {
       `${baseClasses} ${isActive ? "text-primary" : "text-white"}`
     );
   };
+
+  // handle login
+  const handleLogin = () => {
+    setIsLogin(true)
+  }
 
   return (
     <nav className="bg-nav-gradient w-full h-20 py-[15px] px-[15px] text-white relative elementCenter">
@@ -58,7 +65,9 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="login">
-            <Login />
+            <button className="bg-primary text-white px-6 py-2 rounded-md" onClick={handleLogin}>
+              Login
+            </button>
           </div>
         </div>
 
@@ -85,8 +94,8 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="login">
-            <button className="bg-primary text-white px-6 py-2 rounded-md">
-              <Login />
+            <button onClick={handleLogin} className="bg-primary text-white px-6 py-2 rounded-md">
+              Login
             </button>
           </div>
           <div className="search xxs:block xs:hidden">

@@ -1,5 +1,6 @@
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { useState } from "react"
 
 import Navbar from "./components/Navbar/Navbar.jsx"
 
@@ -8,13 +9,19 @@ import About from "./pages/About/About.jsx"
 import Services from "./pages/Services/Services.jsx"
 import WhyUs from "./pages/WhyUs/WhyUs.jsx"
 import Team from "./pages/Team/Team.jsx"
-
+import Login from "./components/Login/Login.jsx"
+import Register from "./components/Register/Register.jsx"
 
 const App = () => {
+  const [isLogin, setIsLogin] = useState(false);
+  const [isRegister, setIsRegister] = useState(true);
+
   return (
-    <div className='app '>
+    <div className='app relative h-[3000px]'>
       <Router>
-        <Navbar />
+        <Navbar setIsLogin={setIsLogin} />
+        {isLogin && <Login setIsLogin={setIsLogin} setIsRegister={setIsRegister} />}
+        {isRegister && <Register setIsRegister={setIsRegister} setIsLogin={setIsLogin}/>}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
