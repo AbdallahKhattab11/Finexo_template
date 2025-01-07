@@ -27,7 +27,7 @@ const Hero = () => {
         </Swiper>
       </div>
 
-      <div className="svg w-full absolute bottom-0 left-0 xxs:hidden lg:block">
+      <div className="svg w-full absolute bottom-[-1px] left-0 xxs:hidden lg:block">
         <svg
           xmlnsXlink="http://www.w3.org/1999/xlink"
           id="wave"
