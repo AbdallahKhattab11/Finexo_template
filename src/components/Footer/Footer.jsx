@@ -1,7 +1,7 @@
 
 const Footer = () => {
   return (
-    <footer className="py-[10px] elementCenter">
+    <footer className="py-[15px] elementCenter">
       <p className="flex items-center gap-2 px-[20px] text-center">
       &copy;
       2025/1/8 All Rights Reserved by :
