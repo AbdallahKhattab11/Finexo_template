@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import { NavLink, Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa6";
+import { HiX } from "react-icons/hi";
 
 
 
@@ -71,9 +72,9 @@ const Navbar = ({setIsLogin}) => {
           </div>
         </div>
 
-        <div className="menu xxs:block lg:hidden ">
+        <div className="menu xxs:block lg:hidden z-50">
           <button className=" text-white text-3xl" onClick={toggleMenu}>
-            <FaBars />
+            {isMenuOpen ? <HiX /> : <FaBars />}
           </button>
           <div className={`links flex flex-col items-center justify-center gap-10 absolute centerAbsoluteElement rounded-b-[10px] w-[95%] bg-nav-gradient transition-all duration-300 overflow-hidden ${handleMenu()}`}>
           <ul className="flex flex-col items-center gap-10 uppercase">

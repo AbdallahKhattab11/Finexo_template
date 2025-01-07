@@ -28,15 +28,15 @@ const OurServices = () => {
           <h2 className="text-3xl font-bold text-black mb-[10px]">
             Our <span className="text-primary">Services</span>
           </h2>
-          <p className="">
+          <p className="text-center px-[15px]">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration
           </p>
         </div>
-        <div className="cards grid grid-cols-3 gap-[30px] place-items-center">
+        <div className="cards grid grid-cols-1 md2:grid-cols-3 gap-[30px] place-items-center">
           {data.map((item)=> {
             return(
-              <div className="card flex flex-col items-center max-w-[360px] gap-4" key={item.id}>
+              <div className="card flex flex-col items-center max-w-[470px] md2:max-w-[360px] gap-4 px-[15px]" key={item.id}>
                 <div className="imgBox">
                   <img className="size-[75px]" src={item.img} alt={item.title} />
                 </div>

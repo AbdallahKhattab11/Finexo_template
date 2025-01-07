@@ -7,6 +7,7 @@ export default {
       screens: {
         xxs: '320px',
         xs: '480px',
+        md2:"992px",
       },
       backgroundImage: {
         'nav-gradient': 'linear-gradient(130deg, #231a6f, #0f054c)',
@@ -15,6 +16,10 @@ export default {
         primary:"#00bbf0",
         secondary: "#007fa4",
         'black-50': 'rgba(0, 0, 0, 0.5)',
+        'primary-bg':"#00204a",
+      },
+      fontSize: {
+        'responsive-font': 'clamp(2rem, 2.5vw, 3rem)',
       }
     },
   },
