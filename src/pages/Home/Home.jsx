@@ -6,6 +6,7 @@ import AboutUs from "../../components/AboutUs/AboutUs";
 import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
 import OurTeam from "../../components/OurTeam/OurTeam";
 import WhatSaysOurCustomers from "../../components/WhatSaysOurCustomers/WhatSaysOurCustomers";
+import Info from "../../components/Info/Info";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <WhyChooseUs />
       <OurTeam />
       <WhatSaysOurCustomers />
+      <Info/>
     </section>
   );
 };
