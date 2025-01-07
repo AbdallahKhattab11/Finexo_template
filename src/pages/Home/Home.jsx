@@ -1,10 +1,13 @@
 
+
+import Hero from "../../components/Hero/Hero"
+
 const Home = () => {
   return (
-    <div>
-      Home
-    </div>
-  )
-}
+    <section>
+      <Hero />
+    </section>
+  );
+};
 
-export default Home
+export default Home;

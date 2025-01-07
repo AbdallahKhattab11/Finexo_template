@@ -5,7 +5,7 @@ const Login = ({ setIsLogin, setIsRegister }) => {
     setIsRegister(true);
   };
   return (
-    <div onClick={() => setIsLogin(false)} className="fixed inset-0 bg-black-50 w-full h-screen elementCenter">
+    <div onClick={() => setIsLogin(false)} className="fixed inset-0 bg-black-50 w-full h-screen elementCenter z-50">
       <div onClick={(e) => e.stopPropagation()} className="bg-white w-[400px] h-[400px] rounded-lg p-[20px] m-[20px] relative">
         <div className=" flex flex-col items-start mb-7 mt-4">
           <h2 className="text-2xl font-bold text-black mb-[10px]">Login</h2>

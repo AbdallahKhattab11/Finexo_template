@@ -5,7 +5,7 @@ const Register = ({setIsRegister, setIsLogin}) => {
     setIsLogin(true);
   };
   return (
-    <div onClick={() => setIsRegister(false)} className="fixed inset-0 bg-black-50 w-full h-screen elementCenter">
+    <div onClick={() => setIsRegister(false)} className="fixed inset-0 bg-black-50 w-full h-screen elementCenter z-50">
       <div onClick={(e) => e.stopPropagation()} className="bg-white w-[400px] h-[600px] rounded-lg p-[20px] m-[20px] relative">
         <h2 className="text-2xl font-bold text-black mb-[40px]">Register</h2>
         <form className="">

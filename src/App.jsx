@@ -14,10 +14,10 @@ import Register from "./components/Register/Register.jsx"
 
 const App = () => {
   const [isLogin, setIsLogin] = useState(false);
-  const [isRegister, setIsRegister] = useState(true);
+  const [isRegister, setIsRegister] = useState(false);
 
   return (
-    <div className='app relative h-[3000px]'>
+    <div className='app relative '>
       <Router>
         <Navbar setIsLogin={setIsLogin} />
         {isLogin && <Login setIsLogin={setIsLogin} setIsRegister={setIsRegister} />}
