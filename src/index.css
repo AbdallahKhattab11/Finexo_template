@@ -94,7 +94,7 @@ body {
 }
 .swiper-button-next,
 .swiper-button-prev {
-  @apply bg-black-50 text-white rounded-md size-[40px] elementCenter cursor-pointer transition;
+  @apply bg-primary-bg text-white rounded-md size-[40px] elementCenter cursor-pointer transition;
 }
 
 

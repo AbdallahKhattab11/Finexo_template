@@ -31,7 +31,7 @@ const WhyChooseUs = () => {
     <div className="whyChooseUs py-[90px] ">
       <div className="container">
         <div className="title mb-[50px] flex flex-col items-center">
-          <h2 className="text-3xl font-bold text-black mb-[10px]">
+          <h2 className="text-3xl font-bold text-primary-bg mb-[10px]">
             Why Choose <span className="text-primary">Us</span>
           </h2>
         </div>

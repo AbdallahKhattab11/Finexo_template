@@ -25,7 +25,7 @@ const OurServices = () => {
     <div className="ourServices py-[90px]">
       <div className="container">
         <div className="title mb-[50px] flex flex-col items-center">
-          <h2 className="text-3xl font-bold text-black mb-[10px]">
+          <h2 className="text-3xl font-bold text-primary-bg mb-[10px]">
             Our <span className="text-primary">Services</span>
           </h2>
           <p className="text-center px-[15px]">

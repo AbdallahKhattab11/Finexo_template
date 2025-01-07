@@ -26,7 +26,7 @@ const WhatSaysOurCustomers = () => {
     <div className="whatSaysOurCustomers py-[90px] ">
       <div className="container ">
         <div className="title mb-[50px] flex justify-center">
-          <h2 className="text-[30px] font-bold text-black text-center">
+          <h2 className="text-[30px] font-bold text-primary-bg text-center">
             What Says Our <span className="text-primary">Customers</span>
           </h2>
         </div>
