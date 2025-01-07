@@ -7,6 +7,7 @@ import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
 import OurTeam from "../../components/OurTeam/OurTeam";
 import WhatSaysOurCustomers from "../../components/WhatSaysOurCustomers/WhatSaysOurCustomers";
 import Info from "../../components/Info/Info";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <OurTeam />
       <WhatSaysOurCustomers />
       <Info/>
+      <Footer/>
     </section>
   );
 };
