@@ -1,7 +1,14 @@
+import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs"
+import Info from "../../components/Info/Info"
+import Footer from "../../components/Footer/Footer"
 
 const WhyUs = () => {
   return (
-    <div>WhyUs</div>
+    <div>
+      <WhyChooseUs />
+      <Info />
+      <Footer />
+    </div>
   )
 }
 
