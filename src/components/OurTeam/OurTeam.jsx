@@ -81,8 +81,8 @@ const OurTeam = () => {
                   <p className="text-[16px] text-white text-center font-medium">{person.jopTitle}</p>
                 </div>
                 <div className="socialLinks w-full flex gap-3 justify-evenly ">
-                  {person.socialLinks.map((link) => {
-                    return <span className="text-white text-[22px] cursor-pointer  transition hover:text-primary">{link}</span>;
+                  {person.socialLinks.map((link,i) => {
+                    return <span key={i} className="text-white text-[22px] cursor-pointer  transition hover:text-primary">{link}</span>;
                   })}
                 </div>
               </div>

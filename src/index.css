@@ -87,3 +87,21 @@ body {
     transform: translateY(0);
   }
 }
+
+
+.controls {
+  @apply absolute z-10 left-1/2 bottom-0 -translate-x-1/2 text-white  elementBetween text-[18px] transition;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  @apply bg-black-50 text-white rounded-md size-[40px] elementCenter cursor-pointer transition;
+}
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  @apply bg-black
+}
+
+
+
