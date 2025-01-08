@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import Button from "../Button/Button";
 
 const HeroContent = () => {
