@@ -1,28 +1,32 @@
 import Button from "../Button/Button";
+import w1 from "../../assets/images/w1.png";
+import w2 from "../../assets/images/w2.png";
+import w3 from "../../assets/images/w3.png";
+import w4 from "../../assets/images/w4.png";
 
 const WhyChooseUs = () => {
   const data = [
     {
       id: 10,
-      img: "/src/assets/images/w1.png",
+      img: w1,
       title: "Expert Management",
       desc: "Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus",
     },
     {
       id: 11,
-      img: "/src/assets/images/w2.png",
+      img: w2,
       title: "Secure Investment",
       desc: "Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus",
     },
     {
       id: 12,
-      img: "/src/assets/images/w3.png",
+      img: w3,
       title: "Instant Trading",
       desc: "Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus",
     },
     {
       id: 13,
-      img: "/src/assets/images/w4.png",
+      img: w4,
       title: "Happy Customers",
       desc: "Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus",
     },

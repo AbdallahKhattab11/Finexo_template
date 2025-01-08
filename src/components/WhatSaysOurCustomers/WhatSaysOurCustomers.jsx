@@ -7,16 +7,20 @@ import "swiper/css/pagination";
 import Customer from "../Customer/Customer";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+
+import customer1 from "../../assets/images/client1.jpg";
+import customer2 from "../../assets/images/client2.jpg";
+
 const WhatSaysOurCustomers = () => {
   const Customer1 = {
-    img: "/src/assets/images/client1.jpg",
+    img: customer1,
     name: "LusDen",
     job: "CEO, Finexo",
     desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore provident ea incidunt, dolore eligendi nemo debitis facilis repudiandae numquam quis quas blanditiis veniam, placeat quam!",
     icon: <RiDoubleQuotesL />,
   };
   const Customer2 = {
-    img: "/src/assets/images/client2.jpg",
+    img: customer2,
     name: "Zen court",
     job: "CEO, Finexo",
     desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore provident ea incidunt, dolore eligendi nemo debitis facilis repudiandae numquam quis quas blanditiis veniam, placeat quam!",

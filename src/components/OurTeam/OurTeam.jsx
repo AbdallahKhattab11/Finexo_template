@@ -6,11 +6,16 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
+import team1 from "../../assets/images/team-1.jpg";
+import team2 from "../../assets/images/team-2.jpg";
+import team3 from "../../assets/images/team-3.jpg";
+import team4 from "../../assets/images/team-4.jpg";
+
 const OurTeam = () => {
   const TeamData = [
     {
       id: `p1`,
-      img: "/src/assets/images/team-1.jpg",
+      img: team1,
       name: "Joseph Brown",
       jopTitle: "Marketing Head",
       socialLinks: [
@@ -23,7 +28,7 @@ const OurTeam = () => {
     },
     {
       id: `p2`,
-      img: "/src/assets/images/team-2.jpg",
+      img: team2,
       name: "Nancy White",
       jopTitle: "Developer",
       socialLinks: [
@@ -36,7 +41,7 @@ const OurTeam = () => {
     },
     {
       id: `p3`,
-      img: "/src/assets/images/team-3.jpg",
+      img: team3,
       name: "Earl Martinez",
       jopTitle: "Designer",
       socialLinks: [
@@ -49,7 +54,7 @@ const OurTeam = () => {
     },
     {
       id: `p4`,
-      img: "/src/assets/images/team-4.jpg",
+      img: team4,
       name: "Josephine Allard",
       jopTitle: "Data Analyst",
       socialLinks: [

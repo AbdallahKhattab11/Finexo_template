@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unknown-property */
+import slideImg from "../../assets/images/slider-img.png";
 import Button from "../Button/Button";
 
 const HeroContent = () => {
@@ -19,7 +19,7 @@ const HeroContent = () => {
         </div>
       </div>
       <div className="imgBox xxs:max-w-[400px] lg:max-w-[600px] elementCenter ">
-        <img src="/src/assets/images/slider-img.png" alt="slider-img" className="upDown	" />
+        <img src={slideImg} alt="slider-img" className="upDown	" />
       </div>
     </div>
   );

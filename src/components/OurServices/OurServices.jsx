@@ -1,22 +1,26 @@
 import Button from "../Button/Button";
+import s1 from "../../assets/images/s1.png";
+import s2 from "../../assets/images/s2.png";
+import s3 from "../../assets/images/s3.png";
+
 
 const OurServices = () => {
   const data = [
     {
       id: 1,
-      img:"/src/assets/images/s1.png",
+      img: s1,
       title: "Currency Wallet",
       desc: "fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
     },
     {
       id: 2,
-      img:"/src/assets/images/s2.png",
+      img: s2,
       title: "Security Storage",
       desc: "fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
     },
     {
       id: 3,
-      img:"/src/assets/images/s3.png",
+      img: s3,
       title: "Expert Support",
       desc: "fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using",
     },

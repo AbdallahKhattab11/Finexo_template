@@ -1,5 +1,5 @@
 import Button from "../Button/Button";
-
+import AboutUsImg from "../../assets/images/about-img.png";
 const AboutUs = () => {
   return (
     <div className="bg-primary-bg py-[90px] text-white">
@@ -15,11 +15,7 @@ const AboutUs = () => {
         </div>
         <div className="contentBox flex flex-col md2:flex-row justify-center gap-10 items-center px-[15px] ">
           <div className="imgBox">
-            <img
-              src="/src/assets/images/about-img.png"
-              alt="About Us Image"
-              className="w-[550px]"
-            />
+            <img src={AboutUsImg} alt="About Us Image" className="w-[550px]" />
           </div>
           <div className="max-w-[580px]">
             <h2 className="text-3xl font-bold mb-[15px]  xxs:text-center md:text-left">We are Finexo</h2>
