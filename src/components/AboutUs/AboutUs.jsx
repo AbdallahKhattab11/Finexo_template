@@ -1,5 +1,5 @@
 import Button from "../Button/Button";
-import AboutUsImg from "../../assets/images/about-img.png";
+import AboutUsImg from "../../assets/images/about-img.webp";
 const AboutUs = () => {
   return (
     <div className="bg-primary-bg py-[90px] text-white">
