@@ -13,7 +13,7 @@ export default {
         'nav-gradient': 'linear-gradient(130deg, #231a6f, #0f054c)',
       },
       colors: {
-        primary:"#00bbf0",
+        primary:"#2196f3",
         secondary: "#007fa4",
         'black-50': 'rgba(0, 0, 0, 0.5)',
         'primary-bg':"#00204a",

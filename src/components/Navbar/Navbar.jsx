@@ -73,7 +73,7 @@ const Navbar = ({setIsLogin}) => {
         </div>
 
         <div className="menu xxs:block lg:hidden z-50">
-          <button className=" text-white text-3xl" onClick={toggleMenu}>
+          <button type="button" className=" text-white text-3xl" onClick={toggleMenu}>
             {isMenuOpen ? <HiX /> : <FaBars />}
           </button>
           <div className={`links flex flex-col items-center justify-center gap-10 absolute centerAbsoluteElement rounded-b-[10px] w-[95%] bg-nav-gradient transition-all duration-300 overflow-hidden ${handleMenu()}`}>

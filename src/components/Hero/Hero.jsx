@@ -15,7 +15,7 @@ const Hero = () => {
           modules={[Navigation, Pagination, Autoplay]}
           pagination={{ clickable: true,  }}
           grabCursor={true}
-          autoplay={{ delay: 3000 }}
+          // autoplay={{ delay: 3000 }}
           loop={true}
           spaceBetween={30}
           slidesPerView={1}

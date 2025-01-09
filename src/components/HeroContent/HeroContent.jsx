@@ -1,4 +1,4 @@
-import slideImg from "../../assets/images/slider-img.png";
+import slideImg from "../../assets/images/slider-img.webp";
 import Button from "../Button/Button";
 
 const HeroContent = () => {
